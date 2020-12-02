@@ -48,9 +48,6 @@ coverage.xml
 # Scrapy stuff
 .scrapy
 
-# Sphinx documentation
-docs/_build/
-
 # pyenv
 .python-version
 
@@ -68,6 +65,9 @@ venv.bak/
 
 # Configuration
 google_service_account.json
+
+# Sphinx build
+juniorguru/handbook/_build/
 
 # Build
 /public/
