@@ -16,6 +16,7 @@ check-anchors = "python scripts/check_anchors.py"
 check-scrapers = "python scripts/check_scrapers.py"
 check-performance = "python scripts/check_performance.py"
 serve = "npx gulp serve"
+serve-docs = "sphinx-autobuild -nWT juniorguru/handbook/ juniorguru/handbook/_build/"
 
 [packages]
 jinja2 = "*"
@@ -45,6 +46,7 @@ favicon = "*"
 feedparser = "*"
 extruct = "*"
 sphinx = "*"
+sphinx-autobuild = "*"
 
 [dev-packages]
 pytest = "*"
