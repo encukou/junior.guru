@@ -154,3 +154,38 @@ Jak začít?
 
 Nemusíš se přebírat hromadami možností a přemýšlet, do které se vyplatí investovat. Tyto materiály prošly pečlivým a přísným výběrem. Jsou to ty nejlepší dostupné. Vyber si jeden z následujících materiálů podle toho, jestli ti více vyhovuje kurz nebo kniha, a začni!
 
+.. hlist::
+   *  https://naucse.python.cz
+      Nauč se Python!
+      - materiály
+      Nejlepší české textové materiály.
+   *  https://engeto.com/cs/katalog/python-1-uvod-do-programovani
+      Engeto
+      - online kurz
+      Nejlepší české textové materiály.
+   *  https://www.coursera.org/learn/python
+      Coursera
+      -  online kurz
+      -  anglicky
+      Profesionálně vedený video kurz University of Michigan.
+   *  https://www.codecademy.com/learn/learn-python-3
+      Codecademy
+      -  online kurz
+      -  anglicky
+      Kurz založený na textu a cvičeních. Rychlejší postup, méně hloubky.
+   *  https://www.umimeprogramovat.cz
+      Umíme programovat
+      - procvičování
+      Uč se skrze cvičení a opakování, `podloženo výzkumy <https://www.umimeto.org/podlozeno-vyzkumem>`__.
+   *  http://diveintopython3.py.cz
+      Ponořme se do Pythonu 3
+      -  kniha
+      Možná strohá, ale i tak nejlepší kniha přeložená do češtiny.
+   *  https://automatetheboringstuff.com
+      Automate the Boring Stuff with Python
+      -  kniha
+      -  anglicky
+      Nejlepší kniha do startu. Nech nudnou práci dělat počítač!
+
+.. note::
+   Seznam je ručně sestavován s ohledem na přívětivost, efektivnost, a vhodnost pro samouky. Za umístění v seznamu se nedá zaplatit, ale jako firma `můžete mít své logo na Příručce o hledání první práce v IT </hire-juniors/#handbook>`__. Návrhy na vylepšení seznamu posílejte na ahoj@junior.guru.
