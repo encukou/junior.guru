@@ -1,0 +1,12 @@
+{
+  "name": "handbook",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "sass scss/custom.scss index.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta2",
+    "sass": "^1.32.7"
+  }
+}

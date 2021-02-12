@@ -129,6 +129,15 @@ function minifyHTML() {
     .pipe(gulp.dest('public/'));
 }
 
+function copyHandbook() {
+  return gulp.src([
+      'handbook/**/*.html',
+      'handbook/**/*.css',
+      '!handbook/node_modules/**/*',
+    ])
+    .pipe(gulp.dest('public/h/'))
+}
+
 function copyFavicon() {
   return gulp.src('juniorguru/web/static/src/images/favicon.ico')
     .pipe(gulp.dest('public/'))
@@ -136,7 +145,7 @@ function copyFavicon() {
 
 const buildWeb = isLocalDevelopment
   ? gulp.series(freezeFlask)
-  : gulp.series(freezeFlask, gulp.parallel(minifyHTML, copyFavicon));
+  : gulp.series(freezeFlask, gulp.parallel(minifyHTML, copyFavicon, copyHandbook));
 
 async function watchWeb() {
   gulp.watch([
@@ -167,6 +176,9 @@ async function watchWeb() {
     'juniorguru/data/data.db',
     'juniorguru/data/*.yml',
   ], buildWeb);
+  gulp.watch([
+    'handbook/**/*',
+  ], copyHandbook);
 }
 
 async function serveWeb() {
